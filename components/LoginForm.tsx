@@ -1,6 +1,8 @@
-const LoginForm: React.FC = () => {
+const LoginForm: React.FC<{
+  onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+}> = ({ onSubmit }) => {
   return (
-    <form>
+    <form onSubmit={onSubmit}>
       <input type="text" id="id" />
       <input type="password" id="password" />
       <button type="submit">button</button>
