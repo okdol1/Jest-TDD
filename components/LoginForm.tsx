@@ -1,5 +1,9 @@
 const LoginForm: React.FC = () => {
-  return <div>Login</div>;
+  return (
+    <div>
+      <input type="text" />
+    </div>
+  );
 };
 
 export default LoginForm;
