@@ -1,9 +1,10 @@
 const LoginForm: React.FC = () => {
   return (
-    <div>
+    <form>
       <input type="text" id="id" />
       <input type="password" id="password" />
-    </div>
+      <button type="submit">button</button>
+    </form>
   );
 };
 

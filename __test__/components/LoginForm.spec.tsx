@@ -9,9 +9,11 @@ describe("로그인 폼 구현", () => {
     const { container } = render(<LoginForm />);
     const idInput = container.querySelector("#id");
     const pwInput = container.querySelector("#password");
+    const button = container.querySelector("button");
 
     expect(idInput).toBeInTheDocument();
     expect(pwInput).toBeInTheDocument();
+    expect(button).toBeInTheDocument();
   });
 });
 
