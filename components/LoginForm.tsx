@@ -1,7 +1,8 @@
 const LoginForm: React.FC = () => {
   return (
     <div>
-      <input type="text" name="id" />
+      <input type="text" id="id" />
+      <input type="password" id="password" />
     </div>
   );
 };
